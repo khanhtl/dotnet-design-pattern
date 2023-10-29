@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creation", "Creation", "{8544450E-B06A-4432-A555-3446DA6F3185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{F5CF5F8D-03DB-4091-900C-CDEFFEB867D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "Factory\SimpleFactory.csproj", "{F5CF5F8D-03DB-4091-900C-CDEFFEB867D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumbleBikesLibrary", "BumbleBikesLibrary\BumbleBikesLibrary.csproj", "{DC845D3A-F364-440A-BB62-FFBBFBF705E0}"
 EndProject
