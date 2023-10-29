@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace BumbleBikesLibrary
 {
-    public class Bicycle
+    public class Bicycle : IBicycle
     {
-        protected string ModelName { get; init; }
-        private int Year { get; set; }
-        private string SerialNumber { get; }
-        protected BicyclePaintColors Color { get; init; }
-        protected BicycleGeometries Geometry { get; init; }
-        protected SuspensionTypes Suspension { get; init; }
-        private ManufacturingStatus BuildStatus { get; set; }
+        public string ModelName { get; set; }
+        public int Year { get; }
+        public string SerialNumber { get; }
+        public BicyclePaintColors Color { get; set; }
+        public BicycleGeometries Geometry { get; set; }
+        public SuspensionTypes Suspension { get; set; }
+        public ManufacturingStatus BuildStatus { get; set; }
         public Bicycle()
         {
             ModelName = string.Empty;

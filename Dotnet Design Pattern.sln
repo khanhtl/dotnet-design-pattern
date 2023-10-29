@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BumbleBikesLibrary", "Bumbl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoPattern", "NoPattern\NoPattern.csproj", "{E1F39041-B28F-47E4-987F-3B28068B3CD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{BDEFEE6F-E8B8-4972-83E1-0149CAE8B3ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{E1F39041-B28F-47E4-987F-3B28068B3CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F39041-B28F-47E4-987F-3B28068B3CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F39041-B28F-47E4-987F-3B28068B3CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDEFEE6F-E8B8-4972-83E1-0149CAE8B3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEFEE6F-E8B8-4972-83E1-0149CAE8B3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEFEE6F-E8B8-4972-83E1-0149CAE8B3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEFEE6F-E8B8-4972-83E1-0149CAE8B3ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{F5CF5F8D-03DB-4091-900C-CDEFFEB867D6} = {8544450E-B06A-4432-A555-3446DA6F3185}
 		{DC845D3A-F364-440A-BB62-FFBBFBF705E0} = {8544450E-B06A-4432-A555-3446DA6F3185}
 		{E1F39041-B28F-47E4-987F-3B28068B3CD3} = {8544450E-B06A-4432-A555-3446DA6F3185}
+		{BDEFEE6F-E8B8-4972-83E1-0149CAE8B3ED} = {8544450E-B06A-4432-A555-3446DA6F3185}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F25932C6-106C-46A9-9E2F-F011188B9D7E}
