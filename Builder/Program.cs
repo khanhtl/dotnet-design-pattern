@@ -22,6 +22,11 @@ namespace Builder
             }
             sb.AppendLine("</ul>");
             Console.WriteLine(sb);
+
+            var builder = new HtmlBuilder("ul");
+            builder.AddChild("li", "hello");
+            builder.AddChild("li", "world");
+            Console.WriteLine(builder);
         }
     }
 }
