@@ -28,6 +28,9 @@ namespace Builder
                 .AddChild("li", "hello")
                 .AddChild("li", "world");
             Console.WriteLine(builder);
+
+            var person = Person.New.Called("Khanh").Called("SWE").Build();
+            Console.WriteLine(person);
         }
     }
 }
