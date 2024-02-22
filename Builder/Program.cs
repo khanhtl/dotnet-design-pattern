@@ -34,6 +34,21 @@ namespace Builder
             Console.WriteLine(person);
             var person2 = new Builder.FunctionalBuilder.PersonBuilder2().Called("Hue").WorkAsA("QC").Build();
             Console.WriteLine(person2);
+
+            var pb = new Builder.FacetedBuilder.PersonBuilder();
+            var person3 = pb
+                .Info
+                    .Called("Xuan")
+                    .Old(26)
+                .Live
+                    .At("Xuan Dinh")
+                    .In("Ha Noi")
+                .Work
+                    .At("MISA JSC")
+                    .Position("Team Lead")
+                .Salary
+                    .Earn(1000000000);
+            Console.WriteLine(person3.ToPerson());
         }
     }
 }
