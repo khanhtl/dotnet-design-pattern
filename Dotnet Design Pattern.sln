@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structure", "Structure", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior", "Behavior", "{2369DBB3-3E97-49D0-ADCC-803712323358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{36A254DB-18C4-4CC8-961C-BF67554F0493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{36A254DB-18C4-4CC8-961C-BF67554F0493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
